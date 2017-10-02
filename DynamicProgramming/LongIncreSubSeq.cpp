@@ -29,8 +29,9 @@ int main()
 	int max = 0;
 	for(int i=0;i<len;i++){
 		if(dp[i] > max){
-			max = a[i];
+			max = dp[i];
 		}
 	}
+	cout<<endl<<max;
 	
 }
